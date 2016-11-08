@@ -1,0 +1,28 @@
+{
+  "name": "app2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nitin Tulswani <tulswani19@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.1",
+    "dotenv": "^2.0.0",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-jwt": "^5.1.0",
+    "express-session": "^1.14.2",
+    "morgan": "^1.7.0",
+    "node-sync-walker": "^0.1.0",
+    "passport": "^0.3.2",
+    "passport-auth0": "^0.5.2",
+    "swig": "^1.4.2"
+  }
+}
